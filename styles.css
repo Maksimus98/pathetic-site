@@ -1,0 +1,85 @@
+*{
+    background-color:
+    font-family:roboto;
+}
+.page {
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+.header {
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 10px;
+justify-content: space-between;
+background-color:#1f2937;
+color: #f9faf8;
+font-size: 24px;
+}
+
+
+.left_header {
+display: flex;
+gap: 25px;
+
+}
+
+.banner {
+    display: flex;
+   justify-content: space-between;
+   margin-top:45px;
+   background-color:#1f2937
+}
+
+.left-text-banner {
+display: flex;
+flex-direction: column;
+width: 300px;
+}
+
+.hero_main_text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+.hero_text {
+    color:#e5e7eb;
+    font-size: 18px;
+}
+.butt1{
+    background-color:#3882f6;
+    color:#e5e7eb;
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    padding:5px
+}
+.second_block {
+    margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.interest_block {
+    display: flex;
+    gap: 25px;
+}
+.interest {
+    width: 150px;
+    color:#e5e7eb;
+    font-size: 18px;
+    text-align:center;
+}
+.interest img {
+width: 150px;
+height: 150px;
+object-fit: cover;
+border: 5px solid #3882f6;
+border-radius: 25px;
+}
+.intersing_text {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1f2937
+}
