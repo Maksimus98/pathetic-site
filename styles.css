@@ -1,12 +1,10 @@
-*{
-    background-color:
+body {
+    margin: 0;
     font-family:roboto;
+ 
 }
-.page {
-    padding-left: 100px;
-    padding-right: 100px;
-    
-}
+
+
 .header {
     display: flex;
     padding-top: 25px;
@@ -15,6 +13,8 @@ justify-content: space-between;
 background-color:#1f2937;
 color: #f9faf8;
 font-size: 24px;
+padding-left: 100px;
+padding-right: 100px;
 }
 
 
@@ -27,8 +27,11 @@ gap: 25px;
 .banner {
     display: flex;
    justify-content: space-between;
-   margin-top:45px;
-   background-color:#1f2937
+   padding-top:45px;
+   padding-bottom: 45px;
+   background-color:#1f2937;
+   padding-left: 100px;
+padding-right: 100px;
 }
 
 .left-text-banner {
@@ -45,6 +48,7 @@ width: 300px;
 .hero_text {
     color:#e5e7eb;
     font-size: 18px;
+    
 }
 .butt1{
     background-color:#3882f6;
@@ -52,13 +56,14 @@ width: 300px;
     border: none;
     border-radius: 5px;
     width: 100px;
-    padding:5px
+    padding:5px;
+cursor: pointer;
 }
 .second_block {
-    margin-top: 75px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 50px;
 }
 
 .interest_block {
@@ -82,4 +87,78 @@ border-radius: 25px;
     font-size: 36px;
     font-weight: 900;
     color:#1f2937
+}
+
+.second_block a {
+font-size: 18px;
+color: #1f2937;
+}
+
+.third_block {
+    display:flex;
+    flex-direction: column;
+    background-color:#e5e7eb ;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.qoute {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.qoute p {
+    margin: 0;
+    text-align: end;
+}
+
+.qoute-text {
+    font-size: 20px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.fourth_bock {
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.call_to {
+    display: flex;
+    gap: 200px;
+background-color: #3882f6;
+padding: 25px 50px 25px 50px;
+border-radius: 25px;
+align-items: center;
+    
+}
+.call_text {
+    display: flex;
+    flex-direction: column;
+    color: #f9faf8;
+
+}
+
+.butt2 {
+    background-color:#3882f6;
+    color: #f9faf8;
+    border:  2px solid white;
+    border-radius: 5px;
+    width: 65px;
+    height: 40px;
+cursor: pointer; 
+}
+.secondary_text {
+    font-size: 15px;
+    
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
