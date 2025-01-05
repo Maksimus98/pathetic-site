@@ -131,6 +131,7 @@ background-color: #3882f6;
 padding: 25px 50px 25px 50px;
 border-radius: 25px;
 align-items: center;
+justify-content: space-between;
     
 }
 .call_text {
