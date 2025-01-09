@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family:roboto;
- 
+
 }
 
 
@@ -14,8 +14,8 @@ justify-content: space-between;
 background-color:#1f2937;
 color: #f9faf8;
 font-size: 24px;
-padding-left: 100px;
-padding-right: 100px;
+padding-left: 150px;
+padding-right: 150px;
 }
 
 
@@ -31,8 +31,8 @@ gap: 25px;
    padding-top:45px;
    padding-bottom: 45px;
    background-color:#1f2937;
-   padding-left: 100px;
-padding-right: 100px;
+   padding-left: 150px;
+padding-right: 150px;
 }
 
 .left-text-banner {
@@ -99,8 +99,8 @@ color: #1f2937;
     display:flex;
     flex-direction: column;
     background-color:#e5e7eb ;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 
 .qoute {
@@ -110,6 +110,8 @@ color: #1f2937;
 .qoute p {
     margin: 0;
     text-align: end;
+    font-weight:700;
+    margin-top: 10px
 }
 
 .qoute-text {
@@ -127,12 +129,14 @@ color: #1f2937;
 }
 .call_to {
     display: flex;
-    gap: 200px;
+
 background-color: #3882f6;
-padding: 25px 50px 25px 50px;
-border-radius: 25px;
+padding: 25px 100px 25px 100px;
+border-radius: 10px;
 align-items: center;
-justify-content: space-between;
+justify-content:space-between;
+    
+
     
 }
 .call_text {
@@ -150,6 +154,7 @@ justify-content: space-between;
     width: 65px;
     height: 40px;
 cursor: pointer; 
+    
 }
 .secondary_text {
     font-size: 15px;
