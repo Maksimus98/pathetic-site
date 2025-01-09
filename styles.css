@@ -22,7 +22,7 @@ padding-right: 150px;
 .left_header {
 display: flex;
 gap: 25px;
-
+font-size: 18px;
 }
 
 .banner {
