@@ -1,10 +1,18 @@
 body {
+    display: flex;
+    flex-direction: column;
     margin: 0;
-    font-family:roboto;
+    font-family: 'Roboto';
 
 }
 
+.common_padding-ir {
 
+}
+.first_block{
+    display: flex;
+
+}
 
 .header {
     display: flex;
@@ -14,8 +22,8 @@ justify-content: space-between;
 background-color:#1f2937;
 color: #f9faf8;
 font-size: 24px;
-padding-left: 150px;
-padding-right: 150px;
+padding-left: var(--global-padding-lr);
+padding-right: var(--global-padding-lr);
 }
 
 
@@ -31,8 +39,8 @@ font-size: 18px;
    padding-top:45px;
    padding-bottom: 45px;
    background-color:#1f2937;
-   padding-left: 150px;
-padding-right: 150px;
+   padding-left: var(--global-padding-lr);
+   padding-right: var(--global-padding-lr);
 }
 
 .left-text-banner {
@@ -99,8 +107,8 @@ color: #1f2937;
     display:flex;
     flex-direction: column;
     background-color:#e5e7eb ;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: var(--global-padding-lr);
+    padding-right: var(--global-padding-lr);
 }
 
 .qoute {
@@ -121,8 +129,8 @@ color: #1f2937;
 }
 
 .fourth_bock {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: var(--global-padding-lr);
+    padding-right: var(--global-padding-lr);
     margin-top: 50px;
     margin-bottom: 50px;
 
@@ -131,7 +139,7 @@ color: #1f2937;
     display: flex;
 
 background-color: #3882f6;
-padding: 25px 100px 25px 100px;
+padding: 25px 50px 25px 50px;
 border-radius: 10px;
 align-items: center;
 justify-content:space-between;
@@ -169,3 +177,35 @@ cursor: pointer;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+
+:root{
+    --global-padding-lr:150px;
+}
+
+
+
+
+@media (max-width: 824px) {
+  :root {  --global-padding-lr: 20px;
+}
+}
+@media (min-width: 1125px) {
+    :root {  --global-padding-lr: 250px;
+  }
+  }
+  @media (min-width: 1362px) {
+    :root {  --global-padding-lr: 350px;
+  }
+  }
+  @media (min-width: 1534px) {
+    :root {  --global-padding-lr: 400px;
+  }
+  }
+  @media (min-width: 1634px) {
+    :root {  --global-padding-lr: 450px;
+  }
+  }
+  @media (min-width: 1839px) {
+    :root {  --global-padding-lr: 550px;
+  }
+  }
