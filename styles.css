@@ -3,16 +3,8 @@ body {
     flex-direction: column;
     margin: 0;
     font-family: 'Roboto';
-
 }
 
-.common_padding-ir {
-
-}
-.first_block{
-    display: flex;
-
-}
 
 .header {
     display: flex;
